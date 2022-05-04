@@ -1,18 +1,19 @@
 import React from "react";
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Aboutme from "./components/Aboutme";
-import Header from "./components/Header";
-import PortfolioContainer from "./components/PortfolioContainer";
-import Footer from "./components/Footer";
+// import Aboutme from "./components/Aboutme";
+// import Header from "./components/Header";
+import Homepage from "./components/Homepage";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="app">
-      <Header/>
-      <Aboutme/>
-      <PortfolioContainer/>
-      <Footer/>
+      {/* <Header/> */}
+      {/* <Aboutme/> */}
+      <Homepage/>
+      {/* <Footer/> */}
     </div>
   );
 }
