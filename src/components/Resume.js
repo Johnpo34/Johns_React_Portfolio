@@ -1,12 +1,13 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 // import resume
+import JP_Resume from "./Assets/images/JP_Resume.pdf";
 import Button from "react-bootstrap/Button";
 
 const styles = {
   fontSize: "28px",
   textAlign: "center",
-  background: "blue",
+  background: "white",
 };
 
 export default function Resume() {
@@ -25,7 +26,7 @@ export default function Resume() {
         </p>
         <p>
           Download my resume
-          <Button variant="warning" href={} download={true}>
+          <Button variant="warning" href={JP_Resume} download={true}>
             here.
           </Button>
         </p>

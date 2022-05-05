@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Homepage from './Homepage';
+// import Homepage from './Homepage';
 import Navbar from "react-bootstrap/Navbar";
 import { Container } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';

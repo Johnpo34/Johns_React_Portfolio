@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Header from "./Header";
-import Footer from "./Footer";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Aboutme from "./pages/Aboutme";
-import Resume from "./pages/Resume";
+// import Footer from "./Footer";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Aboutme from "./Aboutme";
+import Resume from "./Resume";
 
-export default function Homepage () {
+export default function PortfolioContainer () {
     const [currentPage, setCurrentPage] = useState("Aboutme");
 
     const renderPage = () => {
@@ -24,10 +24,13 @@ export default function Homepage () {
         }
     };
 
-    const pageChange = (page) => setCurrentPage(page);
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
         <div>
-            
+            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+            {renderPage()}
+            {/* <Footer></Footer> */}
         </div>
-    )
+    );
 }
