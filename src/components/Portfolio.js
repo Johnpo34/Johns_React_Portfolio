@@ -10,13 +10,10 @@ import RCWorldFoods from "./Assets/images/RCWorldFoods.png";
 // import CardGroup from "react-bootstrap/CardGroup";
 // import Image from "react-bootstrap/Image";
 
-const styles = {
-    textAlign: "center",
-};
 
 export default function Portfolio() {
     return (
-        <div className="container-fluid flex-column w-75 justify-content-center text-center styles={styles}">
+        <div className="container-fluid flex-row w-75 justify-content-center text-center">
             <div className="row p-2">
                 <div className="col-12 col-sm-6 col-md-4">
                     <div className="card card-bg">
@@ -35,8 +32,6 @@ export default function Portfolio() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row p-2">
                 <div className="col-12 col-sm-6 col-md-4">
                     <div className="card card-bg">
                         <img className="card-img-top" alt="RC World Foods" src={RCWorldFoods} fluid="true">
@@ -58,8 +53,6 @@ export default function Portfolio() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row p-2">
                 <div className="col-12 col-sm-6 col-md-4">
                     <div className="card card-bg">
                         <img className="card-img-top" alt="Golden Giants Language Translator" src={GoldenGiants} fluid="true">

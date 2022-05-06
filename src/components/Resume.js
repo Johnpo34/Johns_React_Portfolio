@@ -26,10 +26,11 @@ export default function Resume() {
         </p>
         <p>
           Download my resume
+          </p>
+
           <Button variant="warning" href={JP_Resume} download={true}>
-            here.
+            Here. 
           </Button>
-        </p>
       </Container>
     </div>
   );

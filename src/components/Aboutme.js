@@ -15,7 +15,7 @@ export default function AboutMe() {
             </p>
           </Col>
           <Col sm={4}>
-            <img src={ProfilePicture} alt="John" className="profile-picture"></img>
+            <img src={ProfilePicture} alt="John" className="profile-picture" />
           </Col>
         </Row>
       </Container>
