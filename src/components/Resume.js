@@ -7,7 +7,8 @@ import Button from "react-bootstrap/Button";
 const styles = {
   fontSize: "28px",
   textAlign: "center",
-  background: "white",
+  background: "#282c34",
+  color: "white",
 };
 
 export default function Resume() {
@@ -15,10 +16,10 @@ export default function Resume() {
     <div style={styles}>
       <Container>
         <p>
-          I'm currently in the University of Penn LPS full-stack Web Developer bootcamp.
+          I'm currently enrolled in the University of Penn LPS full-stack Web Developer bootcamp and am scheduled to graduate in May 2022.
         </p>
         <p>
-          I am eager to build upon the skills that I have gained from the school and learn more from other individuals
+          I am eager to build upon the skills that I have gained from the school and learn more from other individuals in a team setting.
         </p>
         <p>
           My experience and skills include: ReactJS, JavaScript(ES6+), CSS,

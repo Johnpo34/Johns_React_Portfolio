@@ -36,6 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.body {
+  background-color: #282c34;
+}
+
+.h1 {
+  color: white;
+}
+
+.Portfoliopage {
+  background-color: #282c34;
+}
  
 .profile-picture {
   max-width: 100%;

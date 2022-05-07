@@ -6,13 +6,13 @@ import Col from "react-bootstrap/Col";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className="body">
       <Container>
         <Row>
           <Col sm={8}>
-            <p>
-              Hi there, my name is John Pohl and I am currently a full stack student at University of Pennsyvania LPS coding bootcamp.
-            </p>
+            <h1>
+              Hello there! My name is John Pohl and I am currently a full stack web develepor student at University of Pennsyvania LPS coding bootcamp.
+            </h1>
           </Col>
           <Col sm={4}>
             <img src={ProfilePicture} alt="John" className="profile-picture" />
