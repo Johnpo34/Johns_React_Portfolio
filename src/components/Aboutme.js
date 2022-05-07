@@ -10,7 +10,7 @@ export default function AboutMe() {
       <Container>
         <Row>
           <Col sm={8}>
-            <h1>
+            <h1 className="intro">
               Hello there! My name is John Pohl and I am currently a full stack web develepor student at University of Pennsyvania LPS coding bootcamp.
             </h1>
           </Col>
