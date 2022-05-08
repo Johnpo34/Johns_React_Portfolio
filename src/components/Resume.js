@@ -16,7 +16,7 @@ export default function Resume() {
     <div style={styles}>
       <Container>
         <p>
-          I'm currently enrolled in the University of Penn LPS full-stack Web Developer bootcamp and am scheduled to graduate in May 2022.
+          I'm currently enrolled in the University of Penn LPS full-stack Web Developer bootcamp and am scheduled to graduate in May 2022. While working full time as a restuarant manager.
         </p>
         <p>
           I am eager to build upon the skills that I have gained from the school and learn more from other individuals in a team setting.

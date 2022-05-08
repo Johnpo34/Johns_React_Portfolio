@@ -20,7 +20,6 @@ function Navigation( {handlePageChange} ) {
               <NavDropdown title="Contact" id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://github.com/Johnpo34">Github</NavDropdown.Item>
                 <NavDropdown.Item href="https://www.linkedin.com/in/john-pohl-871437225/">LinkedIN</NavDropdown.Item>
-                <NavDropdown.Item href="https://twitter.com/johnpo34">Twitter</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
